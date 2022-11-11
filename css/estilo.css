@@ -1,0 +1,53 @@
+/*Estilo para toda la página web*/
+*{
+    /*Crea un espacio al rededor del elemento que lo contiene*/
+    padding: 0;
+    /*dfasdfasdf*/
+    margin: 0;
+
+    box-sizing: border-box;
+}
+body{
+    background: url("../img/fondo2.jpg") no-repeat;
+    background-size: cover;
+   
+}
+.caja{
+    font-size: 30px;
+    width: 50VW;
+    /*width:500px;*/
+    background: rgba(93, 13, 184, 0.4);
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(34, 3, 53);
+    border-radius: 15px;
+    margin-top: 5%;
+}
+
+.caja-imagen{
+    border-radius: 80%;
+}
+
+.caja h1{
+    font-family: 'Festive', cursive;
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 200;
+    margin: 30px 0 20px;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin: 30px;
+}
+
+p{
+   font-size: 80%;
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+    line-height: 1.5;
+    font-weight: 700;
+}
